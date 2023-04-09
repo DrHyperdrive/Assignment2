@@ -6460,10 +6460,40 @@ a.thumbnail {
 
 
 /* My additions begin here */
+body {
+	background-color: black;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
 .header {
+	height: 30em;
 	background-image: url(background.jpg);
-	height: 5%;
-	width: 100%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	color: blue;
+}
+
+.header > div > h1 {
+	position: absolute;
+	top: 5em;
+	color: white;
+	background-color: black;
+}
+
+.index_images {
+	display: flex;
+}
+
+.index_images > a {
+	flex: 1;
+	padding: 3%;
+}
+
+.section2 {
+	background-color: white;
+}
+
+.section2 > h3 {
+	padding: 3%;
+	text-align: center;
 }
