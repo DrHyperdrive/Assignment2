@@ -1,3 +1,6 @@
+/* Diego Hudelson Foundation CSS */
+/* My additions are at the bottom of the file */
+
 @charset "UTF-8";
 /**
  * Foundation for Sites
@@ -6453,3 +6456,14 @@ a.thumbnail {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
+
+
+
+/* My additions begin here */
+.header {
+	background-image: url(background.jpg);
+	height: 5%;
+	width: 100%;
+	background-repeat: no-repeat;
+	color: blue;
+}
