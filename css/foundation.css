@@ -6465,17 +6465,25 @@ body {
 	margin-left: 2%;
 	margin-right: 2%;
 }
+h3 {
+	padding: 3%;
+	text-align: center;
+}
+p {
+	padding: 3%;
+	text-align: center;
+}
 
 .header {
 	height: 30em;
 	background-image: url(background.jpg);
-	background-size: 100% 100%;
+	background-size: 100% auto;
 	background-repeat: no-repeat;
 }
 
 .header > div > h1 {
 	position: absolute;
-	top: 5em;
+	top: 3%;
 	color: white;
 	background-color: black;
 }
@@ -6489,11 +6497,28 @@ body {
 	padding: 3%;
 }
 
+.section1 > h3 {
+	color: white;
+}
+
+.section1 > p {
+	color: white;
+}
+
 .section2 {
 	background-color: white;
 }
 
-.section2 > h3 {
-	padding: 3%;
-	text-align: center;
+.section3 > h3 {
+	color: white;
+}
+
+.section3 > div {
+	display: flex;
+}
+
+.text {
+	color: white;
+	text-align: left;
+	flex: 2;
 }
