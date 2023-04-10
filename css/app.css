@@ -1,3 +1,5 @@
+/* Diego Hudelson My Additions to CSS */
+
 body {
 	background-color: black;
 	margin-left: 2%;
@@ -10,6 +12,11 @@ h3 {
 p {
 	padding: 3%;
 	text-align: center;
+}
+
+.button {
+	border-radius: 10px;
+	padding: 5%;
 }
 
 .header {
@@ -72,4 +79,9 @@ p {
 	color: white;
 	text-align: left;
 	flex: 2;
+}
+
+.abilities {
+	display: flex;
+	justify-content: center;
 }

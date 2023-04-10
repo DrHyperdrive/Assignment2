@@ -33,12 +33,47 @@
 		
 		<div class="section2">
 			<h3>Brigitte's Abilities</h3>
-			<!-- This is where I'll use Foundation -->
+			<div class="abilities">
+				<button type="button" class="alert button expanded" data-toggle="repair-pack">Sleep Dart</button>
+				<div class="dropdown-pane" id="repair-pack" data-dropdown data-hover="true" data-hover-pane="true">
+					<p>Sleep dart is incredibly useful, as it is one of the remaining forms of true CC in the game 
+					since the purge when Overwatch 2 released. The ability to remove an opponent from the match for 5 seconds 
+					is unbelievably valuable. This can be used against a tank to dive their backline, to defend yourself 
+					when you are being dived, or even to counter ultimates like Reaper's Death Blossom. Landing sleeps will 
+					bring your team an incredible amount of value and it is essential that you get familiar with this tool.</p>
+				</div>
+				<button type="button" class="success button expanded" data-toggle="whip-shot">Anti-Nade</button>
+				<div class="dropdown-pane" id="whip-shot" data-dropdown data-hover="true" data-hover-pane="true">
+					<p>Anti-Nade is your most powerful fight-winning tool. You throw a grenade that splashes the 
+					enemies and teammates around it. The teammates are healed an instant 100 health and receive 
+					bonus healing for 3 seconds, AND the opponents are dealt 60 damage and cannot be healed for 3 
+					seconds. This is incredible for earning kills and assists since the opponents will be greatly 
+					softened up for your team to dive. It also has a potential 500 instant healing, and still boosts 
+					any more potential healing you may need! Deciding when and how to use this ability is the defining 
+					game-decider with Ana.</p>
+				</div>
+				<button type="button" class="simple button expanded" data-toggle="nano">Nano Boost</button>
+				<div class="dropdown-pane" id="nano" data-dropdown data-hover="true" data-hover-pane="true">
+					<p>Nano is Ana's ultimate. It instantly heals the target 250 health, halves incoming damage to 
+					that target, and increases their damage dealt by 50%. This ability supercharges a teammate for 
+					incredible plays. This is often saved for either the tank or a specific DPS that synergizes well 
+					with it (an example is Genji with his ultimate, known by the community as Nanoblade). It can also 
+					be used on anyone to give them a second chance at life.</p>
+				</div>
+			</div>
 		</div>
 		
 		<div class="section3">
 			<!-- Maybe some Foundation here too -->
 			<h3></h3>
 		</div>
+		
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/vendor/what-input.js"></script>
+		<script src="js/vendor/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	
 	</body>
 </html>
